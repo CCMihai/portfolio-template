@@ -1,0 +1,62 @@
+@media (min-width: 1400px) {
+	.services-content:before {width: 34%; margin-left: -17%;}
+}
+@media (max-width: 991px) {
+	.page .jumbotron, 
+	.page article {padding: 100px 0;}
+	header .header-right {padding-left: 0;}
+	.service-image,
+	.services-content:before {display: none;}
+	.slider-content {width: 100%;}
+	.bx-pager:before {width: 60%; left: 15%;}
+	.left .description p {padding-right: 0; padding-left: 0;}
+	.skills .skill {margin: 25px 0}
+	.contact .container .col-sm-6:first-child,
+	.contact .container .col-sm-6:nth-child(2) {margin-bottom: 25px;}
+}
+@media (max-width: 767px) {
+	.page .jumbotron, 
+	.page article {padding: 75px 0;}
+	.header-left img {width: 65%; margin: 0 auto 75px;}
+	header .header-right,
+	header .section-title,
+	header .divider {text-align: center;margin: 10px auto 25px;}
+	article .section-title {font-size: 26px;}
+	article .section-subtitle {font-size: 20px;margin-bottom: 25px;}
+	.services .service-right {margin-top: 75px;}
+	.about .my-photo img {margin: 25px auto 50px;}
+	.skills {background: linear-gradient(to bottom, #000 50%, #fff 50%);
+  			 background: -webkit-linear-gradient(to bottom, #000 50%, #fff 50%);
+  			 background: -moz-linear-gradient(to bottom, #000 50%, #fff 50%);}
+  	.skills .right {background-color: #fff; margin-top: 75px;}
+  	.skills .icon, 
+  	.right h3 {margin-bottom: 10px;}
+  	.skills .s-1, .skills .s-2 {margin-top: 50px;}
+  	.modal.in .modal-dialog {
+	  transform: translate(0px, 10%) !important;
+	  -webkit-transform: translate(0px, 10%) !important;
+	  -moz-transform: translate(0px, 10%) !important;
+	  -o-transform: translate(0px, 10%) !important;
+	}		  
+}
+@media (max-width: 480px) {
+	.bxslider li p {width: 100%;}
+	.bxslider li img {display: none;}
+	.bx-pager-item i {width: 50px; height: 50px; line-height: 45px; font-size: 22px;}
+	.bx-pager-item {margin-right: 10px;}
+	.project-categories li {padding: 5px;}
+	.project-categories li a {padding: 10px 10px;}
+	.contact .col-xs-6 {width: 100%; margin: 15px auto;}
+	footer p {font-size: 12px; margin: 0 !important;}
+	.modal.in .modal-dialog {
+	  transform: translate(0px, 5%) !important;
+	  -webkit-transform: translate(0px, 5%) !important;
+	  -moz-transform: translate(0px, 5%) !important;
+	  -o-transform: translate(0px, 5%) !important;
+	}
+}
+
+
+ 
+
+
